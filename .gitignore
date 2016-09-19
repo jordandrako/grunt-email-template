@@ -1,4 +1,7 @@
 node_modules
 .sass-cache
 *.map
-secret.json
+secrets.json
+style.css
+style-human.css
+dist/*.html
