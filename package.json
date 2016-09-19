@@ -1,0 +1,24 @@
+{
+  "name": "eBlast",
+  "description": "eBlast Template that automatically inlines your scss, and uploads compressed images from . Run npm install and create your secret.json file from the sample file.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git"
+  },
+  "main": "index.php",
+  "author": "Jordan Janzen",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-assemble": "^0.5.0",
+    "grunt-autoprefixer": "^3.0.0",
+    "grunt-aws-s3": "^0.14.5",
+    "grunt-cdn": "^0.6.5",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-juice-email": "^0.1.4",
+    "grunt-replace": "^1.0.1"
+  }
+}
