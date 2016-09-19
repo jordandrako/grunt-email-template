@@ -216,6 +216,6 @@ module.exports = function(grunt) {
   grunt.registerTask('buildcss', ['sass', 'autoprefixer', 'juice']);
   grunt.registerTask('buildimg', ['imagemin']);
   grunt.registerTask('build', ['sass', 'assemble', 'juice', 'imagemin', 'replace:src_images']);
-  grunt.registerTask('default', ['build', 'aws_s3', 'watch']);
+  grunt.registerTask('default', ['build', 'aws_s3', 'cdn:s3', 'watch']);
   grunt.registerTask('s3upload', ['build', 'aws_s3', 'cdn:s3'])
 };
