@@ -188,7 +188,7 @@ module.exports = function(grunt) {
     // Watches for changes to CSS or email templates then runs grunt tasks
     watch: {
       emails: {
-        files: ['<%= paths.src %>/css/scss/*','<%= paths.src %>/emails/*','<%= paths.src %>/layouts/*','<%= paths.src %>/partials/**/*','<%= paths.src %>/data/*', '<%= paths.src_img %>/*'],
+        files: ['<%= paths.src %>/scss/*','<%= paths.src %>/emails/*','<%= paths.src %>/layouts/*','<%= paths.src %>/partials/**/*','<%= paths.src %>/data/*', '<%= paths.src_img %>/*'],
         tasks: ['build']
       },
       preview_dist: {
