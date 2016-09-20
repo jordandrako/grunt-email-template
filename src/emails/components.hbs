@@ -1,6 +1,7 @@
 ---
 layout: default.hbs
 subject: Components Guide
+published: false
 ---
 <span class="preheader">This is preheader text. Some clients will show this text as a preview.</span>
 <table class="main">
@@ -13,18 +14,18 @@ subject: Components Guide
             <p>Hi there,</p>
             <p>
               Here's a quick guide to some of the built in components.<br />
-              Each component has it's own <code>partials/components/&lt;component_name&gt;.hbs</code> file and a corresponding <code>_&lt;component_name&gt;.scss</code> 
+              Each component has it's own <code>partials/components/&lt;component_name&gt;.hbs</code> file and a corresponding <code>_&lt;component_name&gt;.scss</code>
             </p>
 
             {{> divider }}
-            
+
             <!-- BEGIN DIVIDERS -->
             <h2>Dividers</h2>
             <p>
               <code>&#123;&#123;&gt; divider &#125;&#125;</code>
             </p>
             {{> divider }}
-            
+
             <!-- BEGIN NOTICES -->
             <h2>Notices</h2>
             <p>
@@ -34,9 +35,9 @@ subject: Components Guide
             {{> notice type='success' text='Hello, this is a <strong>success</strong> notice.' }}
             {{> notice type='warning' text='Hello, this is a <strong>warning</strong> notice.' }}
             {{> notice type='danger' text='Hello, this is a <strong>danger</strong> notice.' }}
-            
+
             {{> divider }}
-            
+
             <!-- BEGIN BUTTONS -->
             <h2>Buttons</h2>
             <p>
@@ -44,7 +45,7 @@ subject: Components Guide
             </p>
             {{> button type='primary' url='https://github.com/leemunroe/grunt-email-workflow' title='Button (primary)' }}
             {{> button type='secondary' url='https://github.com/leemunroe/grunt-email-workflow' title='Button (secondary)' }}
-            
+
             {{> divider }}
 
             <p>Feel free to use, copy, modify this email template as you wish.</p>
